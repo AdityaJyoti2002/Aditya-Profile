@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css"
+        integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style1.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <script src="https://kit.fontawesome.com/e5a237baea.js" crossorigin="anonymous"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Pixelify+Sans&family=Poppins:ital,wght@0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Aditya Jyoti - Developer Porfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav class="w">
+            <div class="left">Aditya's Porfolio</div>
+            <div class="right">
+                <ul id="sidemenu">
+                    <li class="home"><a href="#Home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li class="services"><a href="#services">Services</a></li>
+                    <li><a href="#project">Project</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                    <i class="fa-solid fa-xmark fas" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars fas" onclick="openmenu()"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="fistsection" id="Home">
+            <div class="leftsection leftsection2" style="width: 349px;">Hi, My name is 
+                <p>Aditya Jyoti</p>
+                <span class="text5"></span>
+                <div>and I am a passinate</div>
+                <!-- <div>Web Developer</div> -->
+                <span id="element"></span>
+                <div class="buttom">
+                    <a href="./photos/Aditya_Resume1.pdf" download <button type="button" data-downloand="./Aditya Resume 1.pdf"   class="btn">Download Resume </button></a>
+                    <button  onclick="document.location= 'https://github.com/AdityaJyoti2002'" class="btn">Visit Github</button>
+                    
+                </div>
+            </div>
+            <div class="rightsection">
+                <img class="image" src="./photos/bg2.png" alt="web Developer">
+            </div>
+        </section>
+        <hr>
+        <section class="secandsection">
+            <div class="img2  ">
+                <img class="img3" src="./photos/1.jpeg" >
+            </div>
+
+            <div class="about" id="about">
+                <h2 class="text ">About Me</h2>
+                <p class="text fontstyle">Presently I am a student of CSE (Fourth Semester) In IIT, BHU, Varanasi.
+                    I have good knowledge of language C++, python, Javascripts, c, django,etc
+                    and good command on coding, design,vedioediting. I am suffering from hearing impairment. I have 95% hearing loss in both ears. I was cochlear implanted and taken speech therapy. Now I can hear with the help of hearing aids but it is not like a normal person hearing. In stead of that i am not less than any normal person in any respect. I can do all the job which is given to me. I am always looking for a better prospect in my life, and definitely give my better result to the company. I am always interested to learn new thing and always trying to do the job in better way and invent new way to perform in better way.</p>
+
+                <div class="tab-tittle">
+                    <p class="tab-links active-link skills" 
+                        onclick="opentab('Skill')">Skills
+                    </p>
+                    <p class="tab-links experience" 
+                        onclick="opentab('Experience')">Experience
+                    </p>
+                    <p class="tab-links education"  onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-content active-tab" id="Skill">
+                    <ul class="move_set">
+                        <li><span>Phyton - opncv, Tkinter,</span></li>
+                        <li><span>C Programing</span></li>
+                        <li><span>Java</span></li>
+                        <li><span>HTML</span></li>
+                        <li><span>CSS</span></li>
+                        <li><span>Javascripts</span></li>
+                        <li><span>Django</span></li>
+                        <li><span>backend</span></li>
+                        <li><span>Front-end</span></li>
+                    </ul>
+                </div>
+                <div class="tab-content " id="Experience">
+                    <ul>
+                        <li style="text-decoration: none;"><span>level rating on Codeforces with 100+ questions solved</span></li>
+                        <li style="text-decoration: none;"><span>Part of OUTREACH IIT BHU consisting of the Codinator</span></li>
+                        <li style="text-decoration: none;"><span>Canva has 5 years of experience</span></li>
+                    </ul>
+                </div>
+                <div class="tab-content " id="Education">
+                    <ul>
+                        <li style="    width: 318px;"><span>2022 - Current</span><br>Indian Institutes Of
+                            Technology(BHU)</li>
+                        <li><span>2006 - 2020</span><br>Mout Abu Public School</li>
+                        <!-- <li><span>2022 - Current</span>Indian Institutes Of Technology(BHU)</li> -->
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="thirdsection" id="services">
+
+            <div class="services" >
+                <div class="container">
+                    <h1>My Services</h1>
+                </div>
+                <div class="services-list">
+                    <div class="box">
+                        <i class="fa-solid fa-code" style="color: #ffffff;"></i>
+                        <h3>Back-end Developemt</h3>
+                        <p>I will develop responsive HTML CSS Django website for you</p>
+                        <p>Figma to django</p>
+                        <p>5 Pages = 9,600 Rs</p>
+                        <a href="https://forms.gle/KZq3MH4BRuTvWmvX8" class="btn btn-outline-danger"> Submit</a>
+                        <!-- <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto aperiam fugiat ut beatae ipsum iusto tempora laborum cum, dolorum distinctio doloribus dignissimos rerum officiis illo. Eaque hic laudantium iste?</p> -->
+                        <!-- <a href="">learn more</a> -->
+                    </div>
+                    <!-- <div class="box">
+                        <i class="fa-brands fa-app-store" style="color: #ffffff;"></i>
+                        <h3>App Devpelopment</h3>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto aperiam fugiat ut beatae ipsum iusto tempora laborum cum, dolorum distinctio doloribus dignissimos rerum officiis illo. Eaque hic laudantium iste?</p>
+                        <a href="">learn more</a>
+                    </div> -->
+                    <div class="box">
+                        <i class="fa-brands fa-html5" style="color: #ffffff;"></i>
+                        <h3>Front-end</h3>
+                        <p>I will covert your figma design to website front end responsive Website Using HTML, CSS, and JAVASCRIPTS</p>
+                        <p>1 page = 1000rs</p>
+                        <a href="https://forms.gle/MUvoyg2jCk1vGtfi6" class="btn btn-outline-danger"> Submit</a>
+
+                        <!-- <p>Lorem ip sit amet consectetur adipisicing elit. Incidunt architecto aperiam fugiat ut beatae ipsum iusto tempora laborum cum, dolorum distinctio doloribus dignissimos rerum officiis illo. Eaque hic laudantium iste?</p> -->
+                        <!-- <a href="">learn more</a> -->
+                    </div>
+                </div>
+            </div>
+        </section>
+        <hr>
+        <section class="four-section" id="project">
+            <div class="cantainer" >
+                <h2 class="sub-title">My Project</h2>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="photos/3.png" alt="">
+                        <div class="layer">
+                            <h3>Environment website using django</h3>
+                            <a href="https://github.com/AdityaJyoti2002/environment"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/4.png" alt="">
+                        <div class="layer">
+                            <h3>Calculate me!!</h3>
+                            <a href="https://github.com/AdityaJyoti2002/Calculateme"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="photos/5.png" alt="">
+                        <div class="layer">
+                            <h3>Clock website</h3>
+                            <a href="https://github.com/AdityaJyoti2002/clock"><i class="fa-solid fa-arrow-up-right-from-square" style="color: #ffffff;"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+                  
+        </section>
+        <hr>
+        <section class="five-section" id="contact">
+                <div class="container">
+                     <div class="row">
+                        <div class="contact-left" >
+                            <h2>Contact Me</h2>
+                            <p><i class="fa-solid fa-envelope"></i>aditya2002a@gmail.com</p>
+                            <!-- <p>or</p> -->
+                            <p><i class="fa-solid fa-envelope"></i>aditya.jyoti.cse22@itbhu.ac.in</p>
+                            <p><i class="fa-solid fa-phone"></i>8766206185</p>
+                            <div class="social-icon">
+                                <a href="https://www.facebook.com/profile.php?id=100019618440946"><i class="fa-brands fa-facebook"></i></a>
+                                <a href="https://www.instagram.com/aditya2002a/"> <i class="fa-brands fa-square-instagram"></i></a>
+                                <a href="https://www.linkedin.com/in/aditya-jyoti-185112259/"> <i class="fa-brands fa-linkedin"></i></a>
+                                <a href="https://www.youtube.com/channel/UCrEUWlRsSuUBN4ek7yPedzg"><i class="fa-brands fa-youtube"></i></a>
+                            </div>
+                            <a href="./photos/Aditya_Resume1.pdf" download class="btn btn-outline-danger"> Download CV</a>
+                            <!-- <button type="button"  class="btn btn-outline-danger">Download CV</button> -->
+                        </div>
+                        <div class="contact-right">
+                            <form action="https://api.web3forms.com/submit" method="POST">
+                                <input type="hidden" name="access_key" value="15fde72f-285b-4c84-973f-b33d2c55cf3c">
+                                <input type="text" name="name" placeholder="Your Name">
+                                <input type="email" name="Email" placeholder="Your Email">
+                                <textarea name="Message" id="" cols="5" rows="5" placeholder="Your Message"></textarea>
+                                <button type="submit" class="btn btn-outline-danger center-button">Submit</button>
+                            </form>
+                        </div>
+                     </div>
+                     <!-- <div class="copyright">
+                        <p>copyright C Aditya. Made By <i class="fa-solid fa-heart"></i>Aditya Jyoti</p>
+                     </div> -->
+                </div>
+
+        </section>
+        <br>
+        <footer>
+            <div class="copyright">
+                <p>copyright C Aditya. Made By <i class="fa-solid fa-heart"></i>Aditya Jyoti</p>
+             </div>
+        </footer>
+
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        // for(typed = 0;typed<10000;typed++){
+        var typed = new Typed('#element', {
+            // for(strings=0;strings<10000;strings++){
+            strings: ['Web developer', 'Deginer', 'Youtuber','Programmer', "Front-end", "Back-end"],
+            typeSpeed: 50,
+            loop: true
+        });
+
+        var tablinks = document.getElementsByClassName('tab-links');
+        var tabcontents = document.getElementsByClassName('tab-content');
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+
+            document.getElementById(tabname).classList.add("active-tab");
+        }
+
+        var sidemenu = document.getElementById("sidemenu")
+
+        function openmenu(){
+            sidemenu.style.right= "0"
+        }
+        function closemenu(){
+            sidemenu.style.right= "-250px"
+        }
+    </script>
+    
+</body>
+
+</html>
